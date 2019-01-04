@@ -77,11 +77,11 @@ def all_supplies_in_holidays(holiday_hash)
       array = {}
       array = holiday.to_s.split("_")
       array.each do |word|
-        word.capitalize
+        narray << word.capitalize
       end
-      holi = array.join(" ")
+      string = narray.join(" ")
       list = supplies.join(", ")
-      puts "  #{holi}: #{list}"
+      puts "  #{string}: #{list}"
       end
     end
 end
