@@ -63,7 +63,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
 
   string = ""
-  narray = {}
+  narray = []
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       array = {}
       array = holiday.to_s.split("_")
       array.each do |word|
-        narray<<word.capitalize
+        narrayword.capitalize
       end
       string = narray.join(" ")
       list = supplies.join(", ")
