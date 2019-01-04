@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{capitalized}:"
     holidays.each do |holiday, supplies|
       array = {}
-      array = holiday.split
+      array = holiday.to_s.split
       array.each do |word|
         word.capitalize
       end
