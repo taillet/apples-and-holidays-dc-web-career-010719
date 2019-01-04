@@ -83,6 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
       string = narray.join(" ")
       list = supplies.join(", ")
       puts "  #{string}: #{list}"
+      narray = []
       end
     end
 end
