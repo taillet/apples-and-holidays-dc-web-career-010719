@@ -75,9 +75,8 @@ def all_supplies_in_holidays(holiday_hash)
       array = {}
       array = holiday.to_s.split
       array.each do |word|
-        word.capitalize
+        string = word.capitalize
       end
-      string = array.to_s
       list = supplies.join(", ")
       puts "#{string}: #{list}"
       end
