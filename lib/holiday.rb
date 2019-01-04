@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
         string = word.capitalize
       end
       list = supplies.join(", ")
-      puts "#{string}: #{list}"
+      puts "  #{string}: #{list}"
       end
     end
 end
