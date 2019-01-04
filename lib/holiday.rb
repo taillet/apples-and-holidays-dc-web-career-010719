@@ -100,5 +100,5 @@ array = []
       end
     end
   end
-  return array.join(", ")
+  return array
 end
