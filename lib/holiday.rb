@@ -95,8 +95,7 @@ array = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       if supplies.include?("BBQ")
-        newstring = ":" + holiday.to_s
-        array << newstring
+        array << holiday
       end
     end
   end
